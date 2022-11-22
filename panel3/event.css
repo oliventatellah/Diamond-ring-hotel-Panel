@@ -1,0 +1,49 @@
+body{
+    
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+.panel{
+    height: 5vh;
+    margin: 10px;
+    border-radius: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex: 0.5;
+    color: #fff;
+    position: relative;
+    cursor: pointer;
+    transition: all 1000ms ease-in;
+}
+.panel.active{
+    flex: 5;
+}
+.panel.active{
+    height: 70vh;
+}
+.panel h2{
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    top: 40%;
+}
+.container{
+    width: 95vw;
+}
+#image-1{
+    background-image: url(https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2017/8/23/1/CI_Capella_Shanghai_Jian_Ye_Li-Lobby.jpg.rend.hgtvcom.966.725.suffix/1503534990218.jpeg);
+}
+#image-2{
+    background-image: url(https://i.pinimg.com/originals/85/88/75/858875b685812802828cd6b3efe31455.jpg);
+}
+#image-3{
+    background-image: url(https://www.wework.com/ideas/wp-content/uploads/sites/4/2021/08/20201008-199WaterSt-2_v1-scaled.jpg);
+}
+#image-4{
+    background-image: url(https://www.level-production.com/wp-content/uploads/2018/04/Photo-33.jpg);
+}
+#image-5{
+    background-image: url(https://www.aventri.com/hubfs/buffet%20syle%20f%26b%20at%20event.jpg);
+}
